@@ -1,0 +1,93 @@
+/* Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  /* Login Container */
+  .login-container {
+    color: #333;
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Wider container */
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  .input-field {
+    margin-bottom: 15px;
+  }
+  
+  .input-field label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input-field input {
+    width: 100%; /* Full width input fields */
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-sizing: border-box; /* Ensures padding doesn't overflow */
+  }
+  
+  .input-field input:focus {
+    border-color: #4CAF50; /* Green color */
+  }
+  
+  /* Submit Button */
+  button {
+    width: 100%; /* Button also takes full width */
+    padding: 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #4CAF50;
+    text-decoration: none;
+
+  }
+  span{
+    color: #333;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,86 @@
+body {
+  background-color: white;
+  color: #ffffff;
+  font-family: 'Spotify', sans-serif;
+  background-image: url('musicbackground1.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: center; 
+}
+  
+  .container {
+    margin-top: 70rem; /* Adjust this value as needed to ensure the cards are not hidden */
+  }
+
+  
+  
+  .card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: none;
+  }
+  
+  .card .card-title {
+    color: #ffffff;
+  }
+  
+  .card .card-text {
+    color: #b3b3b3;
+  }
+  
+  .card img {
+    border-radius: 8px;
+  }
+  
+  .card .audio-controls audio {
+    width: 100%;
+  }
+  
+  .btn-primary {
+    background-color: #1db954;
+    border: none;
+    color: white;
+  }
+  
+  .btn-outline-success {
+    border-color: #1db954;
+    color: #1db954;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #1db954;
+    color: white;
+  }
+  
+  .navbar-custom {
+    background-color: #1e1e1e;
+    border-bottom: 1px solid #282828;
+    width: 100%;
+  }
+  
+  .navbar-custom .navbar-brand,
+  .navbar-custom .nav-link {
+    color: white;
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #1db954;
+  }
+  
+  .spinner-border {
+    color: #1db954;
+  }
+  
+  .animated-text {
+    color: white;
+  }
+  
+  .artistic-img {
+    border-radius: 8px;
+  }
+  
+  .text-danger {
+    color: #ff4c4c !important;
+    
+  }
